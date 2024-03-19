@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="icon" type="image/x-icon" href="imagenes/encriptador.ico">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <a href="#" rel="">
+            <img class="logo" src="imagenes/Logo.png" alt="Logo">
+
+        </a>
+    </header>
+    <main>
+        <sec class="left">
+            <textarea class="textUsuario" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="aviso">
+                <img class="imgAviso" src="imagenes/exclamacion.png" alt="Aviso">
+                <span class="contentAviso">Solo letras minúsculas y sin acentos</span>
+            </div>
+            <div class="botones">
+                <input class="btnEncriptar" type="submit" value="Encriptar">
+                <input class="btnDesencriptar" type="submit" value="Desencriptar">
+            </div>
+        </sec>
+        <sec class="rigth">
+            <div class="resultado">
+                <img class="muñeco" src="imagenes/Muñeco.png" alt="Muñeco">
+                <h2 >Ningun mensaje fue encontrado</h2>
+                <p>Ingresa el texto que desees encriptar o desencriptar</p>    
+            </div>
+            <textarea class="textFinal" ></textarea>
+            <input class="btnCopiar"  type="submit" value="Copiar">
+        </sec>
+    </main>
+    <footer>
+        <p class="copyright">&copy; Copyright 2024 - Encriptador de Texto - Created By Alwin Huaman Vasquez </p>
+        <a href="#" rel="">
+            <img class="github" src="imagenes/github.ico" alt="Github">
+        </a>
+        <a href="#" rel="">
+            <img class="linkedin" src="imagenes/linkedin.ico" alt="linkedin">
+        </a>
+    </footer>
+    
+</body>
+<script src="app.js"></script>
+</html>
